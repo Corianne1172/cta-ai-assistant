@@ -1,0 +1,37 @@
+# Environment
+.env
+
+# Raw data — too large for GitHub (500+ MB)
+data/raw/
+
+# Llama adapter — 177 MB, exceeds GitHub 100 MB limit
+models/llama_cta_adapter/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+
+# Streamlit — secrets.toml has your API key, never commit it
+.streamlit/secrets.toml
+
+# Training artefacts
+models/training_curve.png
+models/checkpoints/
