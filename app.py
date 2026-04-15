@@ -385,16 +385,6 @@ if run_btn:
             f"> ⚠ *Set `ANTHROPIC_API_KEY` in Streamlit secrets to enable AI advisories.*"
         )
 
-    # ── 4. Debug expander ────────────────────────────────────────────────────
-    with st.expander("🔍 Model inputs (debug)"):
-        st.code(prompt, language="text")
-        st.json({
-            "station_id":    station_meta["id"],
-            "time_norm":     round(time_norm, 4),
-            "weather_idx":   round(weather_idx, 4),
-            "sports_flag":   sports_flag,
-            "raw_attention": {k: round(v, 4) for k, v in importance.items()},
-        })
 
 else:
     # Landing state
