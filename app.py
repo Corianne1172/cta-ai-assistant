@@ -258,7 +258,7 @@ def build_llama_prompt(station_name: str, station_meta: dict, time_label: str,
 # ─────────────────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.title("🚊 CTA Transit Assistant")
-    st.caption("Cascading AI · Attention Model + Llama 3.1")
+    st.caption("Cascading AI · Attention Model")
     st.divider()
 
     station_name = st.selectbox("Station", list(STATIONS.keys()), index=4)
