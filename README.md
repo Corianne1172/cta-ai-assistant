@@ -201,7 +201,7 @@ Then set `LLAMA_ADAPTER_PATH=models/llama_cta_adapter` in your `.env` and swap t
 - Jiya Sheetal Rathi
 - Hridedu Rimu
 
-CS 495 — University of Illinois Chicago
+CS 495 — Illinois institute of Technology
 
 ---
 
